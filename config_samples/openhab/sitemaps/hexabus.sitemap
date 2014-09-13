@@ -1,0 +1,12 @@
+sitemap demo label="HexaBus Demo"
+{
+	Frame label="HexaBus Plugs" {
+		Switch item=hp 
+		Switch item=hpp
+	}
+	
+	Frame label="HexaBus Data" {
+		Text item=hpp_power valuecolor=[>25="orange",>15="yellow",<=5="green"]
+	}
+}
+

@@ -1,0 +1,4 @@
+Switch hp			"Hexabus Plug" 								{hexabus="1;plug;acdc::50:c4ff:fe04:8431"}
+Switch hpp			"Hexabus Plug Plus" 						{hexabus="2;plug+;acdc::50:c4ff:fe04:8310"}
+
+Number hpp_power	"Power Consumption of Plug Plus: [%.1f W]" 	{hexabus="3;plug+power;acdc::c4ff:fe04:8310"}

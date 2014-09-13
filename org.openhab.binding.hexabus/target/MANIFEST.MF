@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/binding.xml, OSGI-INF/genericbindingprovid
+ er.xml
+Export-Package: org.openhab.binding.hexabus
+Private-Package: org.openhab.binding.hexabus.internal
+Ignore-Package: org.openhab.binding.hexabus.internal
+Bundle-ClassPath: .
+Bundle-Name: openHAB HexaBus Binding
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: openHAB.org
+Bundle-Version: 1.5.0.201404011923
+Bundle-Activator: org.openhab.binding.hexabus.internal.HexaBusActivato
+ r
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-Description: This is the HexaBus binding of the open Home Autom
+ ation Bus (openHAB)
+Bundle-DocURL: http://www.openhab.org
+Bundle-SymbolicName: org.openhab.binding.hexabus
+Import-Package: org.apache.commons.lang,org.openhab.core.binding,org.o
+ penhab.core.events,org.openhab.core.items,org.openhab.core.library.it
+ ems,org.openhab.core.library.types,org.openhab.core.types,org.openhab
+ .model.item.binding,org.osgi.framework,org.osgi.service.cm,org.osgi.s
+ ervice.component,org.osgi.service.event,org.slf4j
+
